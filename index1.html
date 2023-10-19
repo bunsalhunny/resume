@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> HUNNY - Resume</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .resume {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.5;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-header {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li::before {
+            content: "\2022";
+            color: #333;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        .icon {
+            display: inline-block;
+            font-size: 24px;
+            margin-right: 10px;
+            color: #007bff;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .animated {
+            animation: fadeIn 1s ease-in;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <header>
+            <h1>HUNNY</h1>
+            <p>Address: VPO KHERA FARM NEAR POLICE LINE JAGADHRI ,135003 </p>
+            <p>Email: bansalhunny01@gmail.com</p>
+            <p>Phone:+91 7494955607</p>
+        </header>
+
+        <div class="section">
+            <div class="section-header">
+                <h2>Objectives</h2>
+            </div>
+            <p>
+                As a CSE student, my objectives include academic excellence, mastering core concepts and programming skills, and gaining practical experience through projects and internships. I aim to build a strong professional network, stay updated with industry trends, and strive for work-life balance. Specialization and community contributions are also on my agenda as I work towards my long-term career goals.
+            </p>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <h2>Education</h2>
+            </div>
+            <p><strong>Kurukshetra University </strong> </p>
+            <p>Pursue Bachelor Of Technology in Computer Science Engineering </p>
+            <p> From Seth JAI PARKASH MUKAND LAL INSTITUTE OF ENGINEERING AND TECHNOLOGY </p>
+            <p><strong> SCHOOLING FROM MVM PUBLIC SCHOOL </strong> </p>
+        </div>
+
+        
+
+        <div class="section">
+            <div class="section-header">
+                <h2>Skills</h2>
+            </div>
+            <ul>
+                <li><span class="icon">&#128187;</span>C LANGUAGE </li>
+                <li><span class="icon">&#128187;</span> C++ LANGUAGE </li>
+            
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <h2>Projects</h2>
+            </div>
+            <p><strong>LIBRARY MANAGEMENT SYSTEM</strong></p>
+            <p>My library management system project in C has been an invaluable learning experience. I've enhanced my C programming skills, gained expertise in data structures and file handling, and improved user interface design. This project has also emphasized the importance of modular code, error handling, and efficient project management. I've learned the value of rigorous testing, documentation, and seeking feedback for continuous improvement. These skills will undoubtedly benefit my future projects.</p>
+        </div>
+
+        
+
+        <div class="section">
+            <div class="section-header">
+                <h2>CONTACT ME </h2>
+            </div>
+            <p>+91 7494955607</p>
+        </div>
+    </div>
+    <script>
+        // Add animation to elements with the 'animated' class
+        const animatedElements = document.querySelectorAll('.animated');
+        animatedElements.forEach(element => {
+            element.style.opacity = 0;
+            element.style.animation = 'fadeIn 1s ease-in forwards';
+        });
+    </script>
+</body>
+</html>
